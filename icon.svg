@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Fresh Vibrant Emerald Gradient -->
+    <linearGradient id="appBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    <!-- Golden Coin Clasp Gradient -->
+    <linearGradient id="claspGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <!-- Soft Drop Shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#022c22" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Squircle App Background -->
+  <rect width="512" height="512" rx="116" fill="url(#appBg)" />
+
+  <!-- Subtle Glow -->
+  <circle cx="256" cy="180" r="160" fill="#6ee7b7" fill-opacity="0.2" />
+
+  <!-- ============================================== -->
+  <!-- SIMPLE & MODERN FINANCE WALLET EMBLEM          -->
+  <!-- ============================================== -->
+  <g transform="translate(116, 96)" filter="url(#shadow)">
+    <!-- Back note (Uang Kertas sedikit menyembul) -->
+    <rect x="28" y="10" width="224" height="60" rx="16" fill="#a7f3d0" stroke="#34d399" stroke-width="4" />
+    <circle cx="140" cy="40" r="14" fill="#34d399" fill-opacity="0.6" />
+
+    <!-- Main Wallet Body (Dompet Bersih Putih) -->
+    <rect x="0" y="44" width="280" height="190" rx="36" fill="#ffffff" />
+    
+    <!-- Top inner seam fold -->
+    <path d="M 0 84 H 280" stroke="#f1f5f9" stroke-width="3" />
+
+    <!-- Wallet Flap Pocket -->
+    <path d="M 160 108 H 272 C 278 108 280 114 280 120 V 160 C 280 166 278 172 272 172 H 160 C 148 172 144 162 144 150 V 130 C 144 118 148 108 160 108 Z" fill="#059669" />
+
+    <!-- Golden Coin Clasp (Kancing Koin Emas) -->
+    <circle cx="216" cy="140" r="18" fill="url(#claspGold)" />
+    <circle cx="216" cy="140" r="10" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.8" />
+  </g>
+
+  <!-- Clean Brand Wordmark: UANGIN -->
+  <text x="256" y="415" font-family="'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="8">UANGIN</text>
+  <text x="256" y="448" font-family="'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="600" font-size="14" fill="#a7f3d0" text-anchor="middle" letter-spacing="4">KEUANGAN PRIBADI</text>
+</svg>
